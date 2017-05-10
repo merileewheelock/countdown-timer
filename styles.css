@@ -1,0 +1,37 @@
+body{
+	height:  100vh;
+	background: url("http://www.pageresource.com/wallpapers/wallpaper/disney-princess-christmas.jpg") no-repeat center;
+	background-size: cover;
+	text-align: center;
+}
+
+.container{
+	background-color: rgba(255,255,255,0.7);
+	padding: 10px;
+}
+
+h1{
+	color: #339966;
+	font-size: 40px;
+	margin:  40px 0px 20px; /* top left/right bottom */
+}
+
+#timer-div{
+	background-color: #00ecb9;
+	color: #fff;
+	display: inline-block;
+	font-size: 30px;
+}
+
+/* Target divs one layer below hash timer
+#timer-div > div{
+	stuff...
+} */
+
+.time-unit, .time-unit > span{
+	padding: 10px;
+	border-radius: 3px;
+	background: #00816A;
+	display: inline-block;
+}
+
