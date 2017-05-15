@@ -30,12 +30,12 @@ Timer.prototype.updateTimer = function(){
 }
 
 // var endDate = new Date();
-var endDate = new Date(Date.parse("December 25, 2017"));
+var endDate = new Date(Date.parse("July 23, 2017"));
 console.log(endDate);
 
-var disneyChristmasTimer = new Timer("timer-div", endDate);
+var birthdayTimer = new Timer("timer-div", endDate);
 
 setInterval(
 	function(){ // Calling a function that passes the below function
-		disneyChristmasTimer.updateTimer(); // updateTimer() is a method of the disneyChristmasTimer object
+		birthdayTimer.updateTimer(); // updateTimer() is a method of the disneyChristmasTimer object
 	}, 1000) // Calling the function every 1 second
